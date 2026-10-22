@@ -23,3 +23,9 @@ void init_user(int* array, int size) {
 		cin >> array[i];
 	}
 }
+
+void init_by_zero(int* array, int size) {
+	for (int i = 0; i < size; i++) {
+ array[i] = 0;
+	}
+}
