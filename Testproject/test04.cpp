@@ -7,7 +7,7 @@ int main() {
 	long long start = time(NULL);
 	Sleep(5000);
 	long long  finish = time(NULL);
-	long long total_time = finish - start;
+	long long total_time = finish - start;  
 
 	int second = total_time % 60;
 	int minute=total_time / 60 % 60;
