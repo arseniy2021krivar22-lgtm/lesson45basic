@@ -10,7 +10,7 @@ string convert(int* array, int size) {
 	for (int i = 1; i < size; i++) {
 		s += " " + to_string(array[i]);
 	}
-	return s;
+	return s;   
 }
 
 void init_random(int* array, int size, int begin, int end) {
