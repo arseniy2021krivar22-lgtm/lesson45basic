@@ -1,18 +1,18 @@
-#include "util.h"
-#include "Windows.h"
-
-//typedef unsigned short int tiny;
-
-int main() {
-	long long start = time(NULL);
-	Sleep(5000);
-	long long  finish = time(NULL);
-	long long total_time = finish - start;  
-
-	int second = total_time % 60;
-	int minute=total_time / 60 % 60;
-	//tiny n;
-	int hour = total_time/3600 % 24;
-
-	return 0;
-}
+//#include "util.h"
+//#include "Windows.h"
+//
+////typedef unsigned short int tiny;
+//
+//int main() {
+//	long long start = time(NULL);
+//	Sleep(5000);
+//	long long  finish = time(NULL);
+//	long long total_time = finish - start;  
+//
+//	int second = total_time % 60;
+//	int minute=total_time / 60 % 60;
+//	//tiny n;
+//	int hour = total_time/3600 % 24;
+//
+//	return 0;
+//}
